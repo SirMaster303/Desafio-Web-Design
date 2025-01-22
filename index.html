@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal de Planejamento</title>
+
+    <!--====== Styles css ======-->
+    <link rel="stylesheet" href="css/combined_styles.css">
+
+    <!--====== Line Icons css ======-->
+    <link rel="stylesheet" href="css/lineicons.css" />
+
+    <!--====== Tiny Slider css ======-->
+    <link rel="stylesheet" href="css/tiny-slider.css" />
+
+    <!--====== gLightBox css ======-->
+    <link rel="stylesheet" href="css/glightbox.min.css" />
+</head>
+
+<body>
+    <!-- Cabeçalho do portal -->
+    <header>
+        <div class="header-container">
+            <!-- Logo do portal -->
+            <div class="logo">
+                <a href="#"><img src="imagens/sedecti.jpg" alt="Logo"></a>
+            </div>
+            <!-- Texto principal do cabeçalho -->
+            <div class="header-text">
+                <h1>Portal do Planejamento</h1>
+            </div>
+            <!-- Navegação principal -->
+            <nav>
+                <ul>
+                    <li><a href="#">Página Inicial</a></li>
+                    <li><a href="#sistemas">Sistemas</a></li>
+                    <li><a href="#Eventos & Notícias">Eventos & Notícias</a></li>
+                    <li><a href="#">Protocolo Virtual</a></li>
+                    <li><a href="#">Portal do Servidor</a></li>
+                </ul>
+            </nav>
+            <!-- Barra de pesquisa -->
+            <div class="search-bar">
+                <input type="text" placeholder="Pesquisar">
+            </div>
+        </div>
+    </header>
+
+    <!-- Seção principal -->
+    <main>
+        <!-- Hero Section -->
+        <section id="hero-area">
+            <div class="header-content">
+                <h1>SEDECTI - Secretaria de Estado de Desenvolvimento Econômico, Ciência, Tecnologia e Inovação.</h1>
+                <p>
+                    Desenvolver o sistema estadual de planejamento e coordenar as políticas públicas
+                    de desenvolvimento socioeconômico, de ciência, tecnologia e inovação do Amazonas.
+                    A Secretaria de Estado de Desenvolvimento Econômico, Ciência, Tecnologia e Inovação – SEDECTI
+                    é um órgão integrante da administração direta do Poder Executivo do Governo do Estado do Amazonas.
+                </p>
+                <div class="button">
+                    <a href="#video-modal" class="btn icon-btn rounded-full" id="open-video">Assistir Apresentação</a>
+                </div>
+            </div>
+            <div class="header-image">
+                <img src="imagens/imagem-5.jpg" alt="Imagem de exemplo">
+            </div>
+        </section>
+
+        <!-- Modal de vídeo -->
+        <div class="video-modal" id="video-modal">
+            <div class="video-modal-content">
+                <button class="video-modal-close" id="close-video">&times;</button>
+                <iframe src="https://www.youtube.com/embed/c3a2uBrjy0s" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <!-- Seção do Carrossel interativo -->
+        <section class="carousel">
+            <h2>Nossos Sistemas</h2>
+            <div class="carousel-container">
+                <!-- Itens do carrossel -->
+                <div class="carousel-item">
+                    <img src="imagens/imagem-1.png" alt="Imagem 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="imagens/imagem-2.1.png" alt="Imagem 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="imagens/imagem-3.png" alt="Imagem 3">
+                </div>
+                <!-- Mais imagens podem ser adicionadas aqui -->
+            </div>
+            <!-- Controles do carrossel -->
+            <div class="carousel-controls">
+                <button class="carousel-prev" aria-label="Anterior">←</button>
+                <button class="carousel-next" aria-label="Próximo">→</button>
+            </div>
+        </section>
+
+        <section id="sistemas" class="buttons-section">
+            <h2>O QUE VOCÊ PROCURA?</h2>
+            <div class="button-grid">
+                <a href="#" class="button-item">
+                    <img src="imagens/portal-planejamento.png" alt="Portal do Planejamento">
+                    <p>Portal do Planejamento</p>
+                </a>
+                <a href="#" class="button-item">
+                    <img src="imagens/investidor.png" alt="Investidor">
+                    <p>Investidor</p>
+                </a>
+                <a href="#" class="button-item">
+                    <img src="imagens/camaras-setoriais.png" alt="Câmaras Setoriais">
+                    <p>Câmaras Setoriais</p>
+                </a>
+                <a href="#" class="button-item">
+                    <img src="imagens/codam.png" alt="Codam">
+                    <p>Codam</p>
+                </a>
+                <a href="#" class="button-item">
+                    <img src="imagens/tecnologia-inovacao.png" alt="Ciência, Tecnologia e Inovação">
+                    <p>Ciência, Tecnologia e Inovação</p>
+                </a>
+                <a href="#" class="button-item">
+                    <img src="imagens/desenvolvimento-sustentavel.png" alt="Desenvolvimento Sustentável">
+                    <p>Desenvolvimento Sustentável</p>
+                </a>
+                <!-- Adicione mais botões conforme necessário -->
+            </div>
+        </section>
+
+
+        <!-- Seção de Notícias -->
+        <section id="Eventos & Notícias" class="noticias-section">
+            <h2>Eventos & Notícias</h2>
+            <p>Nenhum evento ou notícia foram cadastradas no momento</p>
+        </section>
+
+        <!-- Seção de Newsletter -->
+        <section class="newsletter">
+            <h2>Assine aqui para receber todas as atualizações primeiro</h2>
+            <form action="#">
+              <input type="email" placeholder="Seu e-mail" aria-label="E-mail">
+              <button type="submit">Assinar</button>
+            </form>
+          </section>            
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <div class="footer-content">
+            <img src="imagens/logo.png" alt="Imagem Rodapé" class="footer-img">
+            <div class="footer-info">
+                <p>SEDECTI - Secretaria de Estado de Desenvolvimento Econômico, Ciência, Tecnologia e Inovação</p>
+                <p>Avenida Urucará, nº 595 – Cachoeirinha – Cep: 69065-180</p>
+                <p>Horário: Segunda à Sexta de 8h às 15h</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Modal para abrir e fechar o vídeo
+        const videoModal = document.getElementById('video-modal');
+        const openVideo = document.getElementById('open-video');
+        const closeVideo = document.getElementById('close-video');
+
+        openVideo.addEventListener('click', (e) => {
+            e.preventDefault();
+            videoModal.classList.add('active');
+        });
+
+        closeVideo.addEventListener('click', () => {
+            videoModal.classList.remove('active');
+        });
+
+        videoModal.addEventListener('click', (e) => {
+            if (e.target === videoModal) {
+                videoModal.classList.remove('active');
+            }
+        });
+    </script>
+</body>
+
+</html>
